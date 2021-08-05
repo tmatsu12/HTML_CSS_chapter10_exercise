@@ -4,32 +4,32 @@
   box-sizing: border-box;
 }
 
-header{
+header {
   background-color: #ff9a4b;
   height: 50px;
 }
 
-main{
-  width: 960px; 
-  display: flex; 
-  justify-content: center; 
-  margin: 0 auto; 
-  padding: 50px 0; 
+main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-.section{
+.section {
   width: 300px;
   position: relative;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   margin-right: 30px;
   padding: 10px;
 }
 
-.section:last-child{
+.section:last-child {
   margin-right: 0;
 }
 
-.step{
+.step {
   display: inline-block;
   padding: 3px;
   background-color: #ff9a4b;
@@ -39,55 +39,54 @@ main{
   left: 0;
 }
 
-.img1{
+.img1 {
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
   height: 150px;
 }
 
-.img2{
+.img2 {
   background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
   height: 150px;
 }
 
-.img3{
+.img3 {
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
   height: 150px;
 }
 
-.section h3{
+.section h3 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-footer{
+footer {
   background-color: #aaaaaa;
   height: 50px;
 }
 
 @media screen and (max-width: 768px) {
   header,
-  footer{
+  footer {
     width: 100%;
   }
 
-  main{
+  main {
     width: 90%;
     flex-direction: column;
   }
 
-  .section{
+  .section {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .section:last-child{
+  .section:last-child {
     margin-bottom: 0;
   }
-
 }
